@@ -63,7 +63,7 @@ function App() {
   return (
     <>
     <div className='App'>
-      <h2>Sentimental Analysis</h2>
+      <h2>Sentiment Analysis</h2>
       <div className='form'>
       <input type='text' placeholder='Enter text here ...' value={input} onChange={(e)=>setInput(e.target.value)}/>
 
